@@ -2,10 +2,6 @@
 #include <iostream>
 #include <vector>
 #include "State.h"
-#include "IdleState.h"
-#include "ReloadingState.h"
-#include "EmptyState.h"
-#include "ShootingState.h"
 class Gun
 {
 public:
@@ -42,8 +38,6 @@ public:
 	~Gun();
 
 	void Update(float deltaTime);
-	void Shoot();
-	void Reload();
 
 	void AddAmmo(int added) { m_ammo += added; }
 	void SetAmmo(int ammo) { m_ammo = ammo; }

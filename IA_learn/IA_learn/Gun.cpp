@@ -1,6 +1,11 @@
 #include "Gun.h"
 #include "Utils.h"
-#include "State.h"
+
+#include "IdleState.h"
+#include "ReloadingState.h"
+#include "EmptyState.h"
+#include "ShootingState.h"
+
 
 Gun::Gun()
 	:m_ammo(10),
@@ -32,20 +37,9 @@ Gun::~Gun()
 
 void Gun::Update(float deltaTime)
 {
-
+	m_statesTab[(int)m_state]->Update(deltaTime);
 }
 
-
-void Gun::Shoot()
-{
-
-}
-
-void Gun::Reload()
-{
-
-
-}
 
 bool Gun::TransitionTo(StateEnum to)
 {

@@ -16,9 +16,9 @@ int main()
 		switch (currentInput)
 		{
 		case 'r':
-			gun.Reload();
+			gun.TransitionTo(Gun::StateEnum::Reloading);
 		case 's':
-			gun.Shoot();
+			gun.TransitionTo(Gun::StateEnum::Shooting);
 		case 'q':
 			std::cout << "simulation ended";
 			isRunning = false;
