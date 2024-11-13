@@ -114,6 +114,14 @@ void Entity::Update()
 	}
 }
 
+void Entity::SetDirection(float x, float y, float speed)
+{
+	if (speed > 0)
+		mSpeed = speed;
+
+	mDirection = sf::Vector2f(x, y);
+}
+
 Scene* Entity::GetScene() const
 {
 	return GameManager::Get()->GetScene();

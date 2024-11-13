@@ -19,23 +19,37 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Ball.cpp" />
     <ClCompile Include="Debug.cpp" />
     <ClCompile Include="DummyEntity.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="PlantState.cpp" />
     <ClCompile Include="SampleScene.cpp" />
     <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="State.cpp" />
     <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Zombie.cpp" />
+    <ClCompile Include="ZombieState.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ball.h" />
     <ClInclude Include="Debug.h" />
     <ClInclude Include="DummyEntity.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="Plant.h" />
+    <ClInclude Include="PlantState.h" />
     <ClInclude Include="SampleScene.h" />
     <ClInclude Include="Scene.h" />
+    <ClInclude Include="State.h" />
     <ClInclude Include="Utils.h" />
+    <ClInclude Include="Zombie.h" />
+    <ClInclude Include="ZombieState.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GameManager.inl" />

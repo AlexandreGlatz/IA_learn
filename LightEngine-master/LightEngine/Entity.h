@@ -56,9 +56,11 @@ protected:
 
     virtual void OnUpdate() {};
     virtual void OnCollision(Entity* collidedWith) {};
+    void SetDirection(float x, float y, float speed);
 	
 private:
     void Update();
+
 
 
     friend class GameManager;

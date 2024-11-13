@@ -3,7 +3,7 @@
 #include <iostream>
 
 #include "GameManager.h"
-#include "SampleScene.h"
+#include "GameScene.h"
 
 #include <cstdlib>
 #include <crtdbg.h>
@@ -15,7 +15,7 @@ int main()
 
 	pInstance->CreateWindow(800, 800, "SampleScene");
 	
-	pInstance->LaunchScene<SampleScene>();
+	pInstance->LaunchScene<GameScene>();
 
 	return 0;
 }

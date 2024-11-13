@@ -7,6 +7,9 @@
     <Filter Include="Sample">
       <UniqueIdentifier>{656b759f-efb2-4f59-b546-0dd585a90074}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{a319b4a2-dde7-4b8e-b7a7-dd0e983e7d3a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Entity.cpp">
@@ -18,7 +21,6 @@
     <ClCompile Include="Utils.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="Debug.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
@@ -30,6 +32,28 @@
     </ClCompile>
     <ClCompile Include="SampleScene.cpp">
       <Filter>Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Ball.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantState.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieState.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Gameplay</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -53,6 +77,27 @@
     </ClInclude>
     <ClInclude Include="SampleScene.h">
       <Filter>Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantState.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieState.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Gameplay</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
